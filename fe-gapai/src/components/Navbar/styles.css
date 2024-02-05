@@ -1,0 +1,16 @@
+.navbar-body{
+  /* background-color: black; */
+  padding: 32px
+}
+.css-jsexje-MuiSwitch-thumb{
+  background-image: url('../../../public/sunny.png');
+  background-position-x: 3px;
+  background-position-y: 3px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+ 
+.nav:hover{
+  cursor:pointer
+}

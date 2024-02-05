@@ -11,6 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
